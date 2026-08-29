@@ -1,14 +1,24 @@
-
 <style>
-  /* Fix math layout overflow and centering */
-  mjx-container, .MathJax, .MathJax_Display {
-    max-width: 100% !important;
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
+  /* Center and constrain main content container */
+  body, main, .wrapper, .container {
+    max-width: 860px !important;
+    margin: 0 auto !important;
+    padding: 0 24px !important;
+    box-sizing: border-box;
+    line-height: 1.6;
   }
-  mjx-container[jax="SVG"][display="true"] {
-    display: block !important;
-    margin: 1em auto !important;
+
+  /* Keep tables neat within the container */
+  table {
+    width: 100% !important;
+    margin: 1.5em 0 !important;
+    border-collapse: collapse;
+  }
+
+  /* Prevent code/stack tags from wrapping awkwardly */
+  code {
+    white-space: pre-wrap;
+    word-break: break-word;
   }
 </style>
 
