@@ -1,13 +1,13 @@
-title: "Your Name | Data Science Leader"
-email: "your.email@example.com"
+title: "Deepak Kandasamy | Data Science Leader"
+email: "deepak.vk.1994@gmail.com"
 description: >-
   Principal Data Scientist specializing in Enterprise AI, Reinforcement Learning, and Generative AI.
-baseurl: ""
-url: "https://your-username.github.io"
+baseurl: "/deepak-kandasamy.github.io"
+url: "https://deepak-vk-1994.github.io"
 
 # Social Links
-github_username: your-username
-linkedin_username: your-handle
+github_username: deepak-vk-1994
+linkedin_username: deepak-kandasamy
 
 # Jekyll Theme Setup
 theme: minima
