@@ -1,56 +1,20 @@
-<!-- MathJax Dynamic Rendering -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+{% if page.math %}
+<!-- MathJax 3 SVG Renderer (Prevents font corruption & CSS collisions) -->
 <script>
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']],
       processEscapes: true
-    }
+    },
+    svg: { fontCache: 'global' }
   };
 </script>
-
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-
-<style>
-  /* Center and constrain main content container */
-  body, main, .wrapper, .container {
-    max-width: 860px !important;
-    margin: 0 auto !important;
-    padding: 0 24px !important;
-    box-sizing: border-box;
-    line-height: 1.6;
-  }
-  
-  /* Prevent code/stack tags from wrapping awkwardly */
-  code {
-    white-space: pre-wrap;
-    word-break: break-word;
-  }
-
-  /* Strategic Pillars Table Styling */
-  table {
-    width: 100% !important;
-    border-collapse: collapse !important;
-    margin: 1.5em 0 !important;
-    font-size: 0.92em;
-  }
-
-  th, td {
-    padding: 10px 14px !important;
-    text-align: left !important;
-    vertical-align: top !important; /* Prevents awkward middle vertical alignment */
-    border-bottom: 1px solid #e0e0e0 !important;
-  }
-
-  th {
-    font-weight: 700 !important;
-    border-bottom: 2px solid #444 !important;
-  }
-
-  /* Explicit Column Width Ratio */
-  table td:nth-child(1), table th:nth-child(1) { width: 25%; }
-  table td:nth-child(2), table th:nth-child(2) { width: 45%; }
-  table td:nth-child(3), table th:nth-child(3) { width: 30%; }
-
-</style>
-
+{% endif %}

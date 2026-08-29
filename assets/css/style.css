@@ -1,0 +1,69 @@
+/* Base Resets & Modern Typography */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #24292e;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+/* Page Layout Container (Fixes Widescreen Stretch) */
+.site-container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  min-height: calc(100vh - 160px);
+}
+
+/* Header & Navigation Styling */
+.site-header { border-bottom: 1px solid #e1e4e8; background: #fafbfc; }
+.header-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-title { font-weight: 700; font-size: 1.25rem; color: #0366d6; text-decoration: none; }
+.site-nav a { margin-left: 16px; color: #586069; text-decoration: none; font-weight: 500; }
+.site-nav a:hover { color: #0366d6; }
+
+/* Footer Styling */
+.site-footer { border-top: 1px solid #e1e4e8; background: #fafbfc; font-size: 0.88rem; color: #586069; }
+.footer-inner { max-width: 860px; margin: 0 auto; padding: 24px 20px; text-align: center; }
+.footer-inner a { color: #0366d6; text-decoration: none; }
+
+/* Table Styling (Fixes Vertical Column Squeezing) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.95rem;
+}
+th, td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e1e4e8;
+  text-align: left;
+  vertical-align: top;
+  word-break: normal;
+  white-space: normal;
+}
+th { border-bottom: 2px solid #24292e; font-weight: 600; }
+
+/* Tech Stack Tags */
+.tag {
+  display: inline-block;
+  background: #f1f8ff;
+  color: #0366d6;
+  border: 1px solid rgba(27,31,35,0.05);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  margin: 2px 4px 2px 0;
+  white-space: nowrap;
+}
+
+/* MathJax Overflow Safeguard */
+mjx-container { max-width: 100% !important; overflow-x: auto !important; margin: 12px 0; }

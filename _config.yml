@@ -16,8 +16,8 @@ header_pages:
   - projects.md
 
 # Social Profile Links
-github_username: deepak-kandasamy
-linkedin_username: deepak-kandasamy # Replace with your exact LinkedIn handle
+github_username: deepak-kandasamy-aiml
+linkedin_username: deepak-kandasamy
 
 # Build & Theme Settings
 theme: minima
