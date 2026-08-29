@@ -73,3 +73,27 @@ hr {
 
 /* MathJax Overflow Safeguard */
 mjx-container { max-width: 100% !important; overflow-x: auto !important; margin: 12px 0; }
+
+/* Featured Work Project Indentation & Spacing */
+.project-card {
+  margin-left: 16px;            /* Indents the entire project block */
+  padding-left: 16px;           /* Inner spacing from left accent bar */
+  border-left: 3px solid #0366d6;/* Clean visual accent bar */
+  margin-bottom: 36px;          /* Vertical space between projects */
+}
+
+.project-card h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.project-card ul {
+  margin-top: 4px;
+  margin-left: 18px;            /* Indents bullet lists inside project */
+}
+
+.project-card li {
+  margin-bottom: 6px;           /* Space between bullet items */
+}
