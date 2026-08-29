@@ -1,20 +1,39 @@
-title: "Deepak Kandasamy | Principal Data Scientist"
+# Site Identity & Meta
+title: "Deepak Kandasamy"
+author: "Deepak Kandasamy"
 email: "deepak.vk.1994@gmail.com"
 description: >-
-  Principal Data Scientist specializing in Enterprise AI, Reinforcement Learning, and Generative AI.
-baseurl: ""
-url: "https://your-username.github.io"
+  Principal Data Scientist & AI Leader specializing in Enterprise AI Solutions, 
+  Generative AI Agentic Workflows, Causal Inference, and Reinforcement Learning.
 
-# Social Links
-github_username: deepak-vk-1994
-linkedin_username: deepak-kandasamy
+# URL Setup (Configured for Root GitHub Pages Site)
+url: "https://deepak-kandasamy-aiml.github.io"
+baseurl: "" # Empty string for root user page
 
-# Jekyll Theme Setup
-theme: minima
+# Navigation Bar Configuration
 header_pages:
   - about.md
   - projects.md
 
+# Social Profile Links
+github_username: deepak-kandasamy
+linkedin_username: deepak-kandasamy # Replace with your exact LinkedIn handle
+
+# Build & Theme Settings
+theme: minima
+minima:
+  skin: auto # Options: auto (matches browser dark/light mode), dark, classic
+  social_links:
+    - { platform: github, user_url: "https://github.com/deepak-kandasamy-aiml" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/deepak-kandasamy" } # Update URL if needed
+
+# SEO & Feed Plugins (Natively supported by GitHub Pages)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Permalinks for Blog Posts
+permalink: /posts/:year/:month/:title/
+markdown: kramdown
+

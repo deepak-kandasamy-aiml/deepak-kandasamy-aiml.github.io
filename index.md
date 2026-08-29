@@ -3,21 +3,54 @@ layout: home
 title: Home
 ---
 
-# Enterprise AI & Frontier Machine Learning
-
-[Placeholder: High-impact hero summary highlighting role as Principal Data Scientist, bridging industry AI applications with personal R&D in RL and GenAI.]
-
----
-
-**Core Focus Areas**
-
-* **Enterprise AI:** [Placeholder: Driving business impact, scalable ML architectures, production deployment]
-* **Reinforcement Learning:** [Placeholder: Sequential decision systems, multi-agent frameworks, policy optimization]
-* **Generative AI:** [Placeholder: LLM architectures, RAG pipelines, fine-tuning, autonomous agents]
+# Deepak Kandasamy
+**Principal Data Scientist & AI Leader**  
+*Bridging Enterprise AI Impact & Frontier Research*
 
 ---
 
-**Featured Work**
+## Building Systems That Reason, Adapt, and Scale
 
-* **[Featured RL Project]** — *[Placeholder: Short one-line takeaway]*
-* **[Featured GenAI Project]** — *[Placeholder: Short one-line takeaway]*
+I am a Principal Data Scientist and AI Leader with over 9 years of experience transforming complex business challenges into production-grade AI platforms. At **Tiger Analytics**, I lead engineering squads delivering multi-million dollar business impacts across Generative AI, Causal Inference, and Big Data Optimization. 
+
+Beyond enterprise delivery, my core research focuses on **Reinforcement Learning (RL)** and **Multi-Agent GenAI Architectures**—exploring autonomous decision-making loops, policy stability, and agentic reasoning.
+
+---
+
+## Strategic Pillars
+
+| Pillar | Focus & Technologies | Primary Impact |
+| :--- | :--- | :--- |
+| **Agentic & Generative AI** | Multi-Agent Systems (ADK, LangGraph), RAG, Fine-Tuning, Guardrails | Workflow Automation & Decision Intelligence |
+| **Causal ML & Dynamic Pricing** | Deep Neural Networks, Price Elasticity, Econometric Modeling | Margin Optimization & Revenue Uplift |
+| **Reinforcement Learning** | PPO, SAC, Custom Environments, Policy Stability | Autonomous Control & Frontier Research |
+| **Spatiotemporal ML** | ConvLSTM, DeepAR, Physics-Informed ML, IoT Telemetry | Renewable Energy Yield & Supply Chain |
+
+---
+
+## Featured Work
+
+### 🚀 [GenAI Lease Processing Agent](/projects/#genai-lease-processing-agent)
+* **Impact:** Reduced legal document review time from **8 hours to under 3 minutes** using multi-agent structured extraction and confidence scoring.
+* **Stack:** `Python` | `LangGraph` | `OpenAI/Gemini` | `Vector DBs` | `FastAPI`
+
+### 📈 [DNN Causal Inference & Pricing Engine](/projects/#dnn-based-causal-inference--pricing-engine)
+* **Impact:** Delivered a **3% revenue lift** via individual-level price elasticity modeling and production MLOps pipelines.
+* **Stack:** `PyTorch` | `CausalML` | `AWS` | `MLflow` | `Airflow`
+
+### ⚡ [Physics-Informed Wind Energy Optimization](/projects/#physics-informed-wind-energy-optimization--forecasting)
+* **Impact:** Increased annual power yield by **7% ($1.4M revenue)** and reduced grid forecast penalty costs by **$300K/farm**.
+* **Stack:** `PyTorch` | `ConvLSTM` | `DeepAR` | `Databricks` | `Spark`
+
+### 🤖 [Autonomous RL & Frontier AI Research](/projects/#2-personal-research--frontier-ai)
+* **Impact:** Personal research benchmarking policy stability in sparse reward environments and multi-modal tool-use agents.
+* **Stack:** `PyTorch` | `Gymnasium` | `Ray/RLlib` | `LangGraph` | `ChromaDB`
+
+---
+
+## Connect & Explore
+
+* **Full Background:** Read my [Executive Bio & Career Summary](/about/)
+* **Project Deep-Dives:** Explore all [Enterprise & Research Projects](/projects/)
+* **GitHub:** [@deepak-kandasamy](https://github.com/deepak-kandasamy)
+* **LinkedIn:** [Deepak Kandasamy](https://www.linkedin.com/in/deepak-kandasamy)

@@ -35,3 +35,6 @@ Follow these steps to run and preview the site locally before pushing changes to
 * Ruby (v3.0 or higher)
 * Bundler (`gem install bundler`)
 
+📬 Connect
+LinkedIn: linkedin.com/in/deepak-kandasamy
+GitHub: @deepak-kandasamy-aiml
