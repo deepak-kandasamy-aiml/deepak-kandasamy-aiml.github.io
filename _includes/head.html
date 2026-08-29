@@ -8,6 +8,7 @@
     }
   };
 </script>
+
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
 <style>
@@ -18,6 +19,12 @@
     padding: 0 24px !important;
     box-sizing: border-box;
     line-height: 1.6;
+  }
+  
+  /* Prevent code/stack tags from wrapping awkwardly */
+  code {
+    white-space: pre-wrap;
+    word-break: break-word;
   }
 
   /* Strategic Pillars Table Styling */
@@ -45,10 +52,5 @@
   table td:nth-child(2), table th:nth-child(2) { width: 45%; }
   table td:nth-child(3), table th:nth-child(3) { width: 30%; }
 
-  /* Prevent code/stack tags from wrapping awkwardly */
-  code {
-    white-space: pre-wrap;
-    word-break: break-word;
-  }
 </style>
 

@@ -69,8 +69,8 @@ The environment state space $\mathcal{S}_t$ at time step $t$ is formulated as a 
 $$\mathcal{S}_t = \{ \mathbf{X}^{\text{market}}_t, \mathbf{X}^{\text{macro}}_t, \mathbf{X}^{\text{concall}}_t, \mathbf{w}_{t-1} \}$$
 
 * **Market Tensor ($\mathbf{X}^{\text{market}}_t \in \mathbb{R}^{B \times 10 \times 20 \times 6}$):** OHLCV and technical indicators across 10 stocks over a 20-day sliding lookback window.
-* **Macro Tensor ($\mathbf{X}^{\text{macro}}_t \in \mathbb{R}^{B \times 20 \times F_{\text{macro}}}$):** Shared global regime indicators (e.g., VIX, yield curves, interest rates, exchange rates) over 20 days.
-* **Concall Feature Matrix ($\mathbf{X}^{\text{concall}}_t \in \mathbb{R}^{B \times 10 \times D_{\text{llm}}}$):** Decay-weighted qualitative sentiment vectors extracted from quarterly earnings call transcripts using LLM embeddings.
+* **Macro Tensor :** Shared global regime indicators (e.g., VIX, yield curves, interest rates, exchange rates) over 20 days.
+* **Concall Feature Matrix :** Decay-weighted qualitative sentiment vectors extracted from quarterly earnings call transcripts using LLM embeddings.
 * **Portfolio State ($\mathbf{w}_{t-1} \in \mathbb{R}^{B \times 11}$):** Prior allocation weights across 10 assets plus the uninvested cash position.
 
 ---

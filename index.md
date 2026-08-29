@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: default
 title: Home
+math: true
 ---
 
 # Deepak Kandasamy
