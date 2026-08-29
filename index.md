@@ -32,19 +32,19 @@ Beyond enterprise delivery, my core research focuses on **Reinforcement Learning
 
 ### 🚀 [GenAI Lease Processing Agent](/projects/#genai-lease-processing-agent)
 * **Impact:** Reduced legal document review time from **8 hours to under 3 minutes** using multi-agent structured extraction and confidence scoring.
-* **Stack:** `Python` | `LangGraph` | `OpenAI/Gemini` | `Vector DBs` | `FastAPI`
+* **Stack:** `Python` • `LangGraph` • `OpenAI/Gemini` • `Vector DBs` • `FastAPI`
 
 ### 📈 [DNN Causal Inference & Pricing Engine](/projects/#dnn-based-causal-inference--pricing-engine)
 * **Impact:** Delivered a **3% revenue lift** via individual-level price elasticity modeling and production MLOps pipelines.
-* **Stack:** `PyTorch` | `CausalML` | `AWS` | `MLflow` | `Airflow`
+* **Stack:** `PyTorch` • `CausalML` • `AWS` • `MLflow` • `Airflow`
 
 ### ⚡ [Physics-Informed Wind Energy Optimization](/projects/#physics-informed-wind-energy-optimization--forecasting)
 * **Impact:** Increased annual power yield by **7% ($1.4M revenue)** and reduced grid forecast penalty costs by **$300K/farm**.
-* **Stack:** `PyTorch` | `ConvLSTM` | `DeepAR` | `Databricks` | `Spark`
+* **Stack:** `PyTorch` • `ConvLSTM` • `DeepAR` • `Databricks` • `Spark`
 
 ### 🤖 [Autonomous RL & Frontier AI Research](/projects/#2-personal-research--frontier-ai)
 * **Impact:** Personal research benchmarking policy stability in sparse reward environments and multi-modal tool-use agents.
-* **Stack:** `PyTorch` | `Gymnasium` | `Ray/RLlib` | `LangGraph` | `ChromaDB`
+* **Stack:** `PyTorch` • `Gymnasium` • `Ray/RLlib` • `LangGraph` • `ChromaDB`
 
 ---
 
