@@ -11,7 +11,7 @@ title: Home
 
 ## Building Systems That Reason, Adapt, and Scale
 
-I am a Principal Data Scientist and AI Leader with over 9 years of experience transforming complex business challenges into production-grade AI platforms. At **Tiger Analytics**, I lead engineering squads delivering multi-million dollar business impacts across Generative AI, Causal Inference, and Big Data Optimization. 
+I am a Principal Data Scientist and AI Leader with over 10 years of experience transforming complex business challenges into production-grade AI platforms. At **Tiger Analytics**, I lead engineering squads delivering multi-million dollar business impacts across Generative AI, Causal Inference, and Big Data Optimization. 
 
 Beyond enterprise delivery, my core research focuses on **Reinforcement Learning (RL)** and **Multi-Agent GenAI Architectures**—exploring autonomous decision-making loops, policy stability, and agentic reasoning.
 

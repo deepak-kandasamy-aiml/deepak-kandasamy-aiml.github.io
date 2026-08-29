@@ -36,4 +36,5 @@ plugins:
 # Permalinks for Blog Posts
 permalink: /posts/:year/:month/:title/
 markdown: kramdown
-
+kramdown:
+  math_engine: mathjax
