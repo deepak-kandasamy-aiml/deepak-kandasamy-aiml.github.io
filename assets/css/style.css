@@ -75,7 +75,7 @@ hr {
 mjx-container { max-width: 100% !important; overflow-x: auto !important; margin: 12px 0; }
 
 /* Style Project Headings in Featured Work */
-.site-container h4 {
+.site-container h3 {
   margin-top: 36px;
   margin-bottom: 10px;
   padding-left: 14px;
@@ -85,13 +85,13 @@ mjx-container { max-width: 100% !important; overflow-x: auto !important; margin:
 }
 
 /* Indent Bullet Points & Add Space After Each Project */
-.site-container h4 + ul {
+.site-container h3 + ul {
   margin-left: 18px;               /* Indents project content */
   margin-bottom: 32px;             /* Vertical space between projects */
   padding-left: 16px;
 }
 
-.site-container h4 + ul li {
+.site-container h3 + ul li {
   margin-bottom: 8px;              /* Vertical space between impact and stack */
   line-height: 1.5;
 }
