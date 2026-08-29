@@ -7,6 +7,7 @@ tags: [PPO, PyTorch, Multi-Head Attention, Multi-Modal, Portfolio Optimization, 
 author: Deepak Kandasamy
 description: "An end-to-end Deep Reinforcement Learning architecture combining market price action, LLM earnings call sentiment, and macro regime indicators via Cross-Stock Attention."
 math: true
+usemathjax: true
 ---
 
 ## Executive Summary
